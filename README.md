@@ -16,10 +16,10 @@ Create workflow using:
     End Node
 
 Supports TRUE / FALSE branching
-# Editable node labels
-# Add nodes dynamically
-# Delete nodes (except Start)
-# Undo & Redo functionality
+- Editable node labels  
+- Dynamic node creation  
+- Delete nodes (except Start node)  
+- Undo and redo support  
 
 ## Clean and responsive UI
 Built with modern React (functional components & hooks)
@@ -30,16 +30,16 @@ Live Demo
 🔗 GitHub Repository: https://github.com/Amu-Patel/workflow
 
 ## Tech Stack
-JavaScript-->React
-TailwindCSS 
-Pure React + CSS
+- JavaScript-->React 
+- TailwindCSS  
+- Pure React + CSS 
 
 ## Features
-Workflow Canvas
-Starts with a single root node: Start
-Displays nodes in a structured tree layout
-Visual connections between parent and child nodes
-Each node displays a readable label
+- Workflow Canvas
+- Starts with a single root node: Start
+- Displays nodes in a structured tree layout
+- Visual connections between parent and child nodes
+- Each node displays a readable label
 
 ## Node Types
 Node Type	Description	            Children
@@ -60,6 +60,6 @@ Parent reconnects automatically to the deleted node’s children to maintain flo
 Node labels are editable directly via UI
 
 ## Bonus Features (Optional)
-Save workflow (logs workflow JSON to console)
-Undo / Redo for structural changes
-Context-sensitive add-node menu
+- Save workflow (logs workflow JSON to console)
+- Undo / Redo for structural changes
+- Context-sensitive add-node menu
