@@ -1,16 +1,65 @@
-# React + Vite
+##Workflow Builder (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A visual workflow builder built using React and Tailwind CSS that allows users to create logical flows using nodes such as Start, Action, Branch (If/Else), and End.
+Users can dynamically add, edit, and delete nodes, with support for branching logic and undo/redo functionality.
 
-Currently, two official plugins are available:
+##Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Create workflow using:
 
-## React Compiler
+    Start Node
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+    Action Node
 
-## Expanding the ESLint configuration
+    Branch (If / Else) Node
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    End Node
+
+Supports TRUE / FALSE branching
+Editable node labels
+Add nodes dynamically
+Delete nodes (except Start)
+Undo & Redo functionality
+
+##Clean and responsive UI
+Built with modern React (functional components & hooks)
+
+Live Demo
+
+🔗 Live URL: [Add your deployed link here]
+🔗 GitHub Repository: [Add your repo link here]
+
+##Tech Stack
+JavaScript-->React
+TailwindCSS 
+Pure React + CSS
+
+##Features
+Workflow Canvas
+Starts with a single root node: Start
+Displays nodes in a structured tree layout
+Visual connections between parent and child nodes
+Each node displays a readable label
+
+🔹 Node Types
+Node Type	Description	            Children
+Action	    Single step/task	    1 outgoing connection
+Branch	    Conditional decision	Multiple outgoing connections (True/False)
+End	        Final step	            No outgoing connections
+
+✏️ User Interactions
+➕ Add Node
+Add Action, Branch, or End node after any non-End node
+For Branch nodes, users can add steps to specific branches (True/False)
+
+🗑️ Delete Node
+Any node except Start can be deleted
+Parent reconnects automatically to the deleted node’s children to maintain flow
+
+📝 Edit Node
+Node labels are editable directly via UI
+
+##Bonus Features (Optional)
+Save workflow (logs workflow JSON to console)
+Undo / Redo for structural changes
+Context-sensitive add-node menu
