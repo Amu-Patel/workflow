@@ -61,6 +61,6 @@ End	        Final step	            No outgoing connections
 - Node labels are editable directly via UI
 
 ## Bonus Features (Optional)
-- Save workflow (logs workflow JSON to console)
+- Save workflow 
 - Undo / Redo for structural changes
 - Context-sensitive add-node menu
