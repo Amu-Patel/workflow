@@ -50,15 +50,15 @@ End	        Final step	            No outgoing connections
 
 ## ✏️ User Interactions
 ➕ Add Node
-Add Action, Branch, or End node after any non-End node
-For Branch nodes, users can add steps to specific branches (True/False)
+- Add Action, Branch, or End node after any non-End node
+- For Branch nodes, users can add steps to specific branches (True/False)
 
 🗑️ Delete Node
-Any node except Start can be deleted
-Parent reconnects automatically to the deleted node’s children to maintain flow
+- Any node except Start can be deleted
+- Parent reconnects automatically to the deleted node’s children to maintain flow
 
 📝 Edit Node
-Node labels are editable directly via UI
+- Node labels are editable directly via UI
 
 ## Bonus Features (Optional)
 - Save workflow (logs workflow JSON to console)
