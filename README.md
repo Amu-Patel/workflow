@@ -16,18 +16,21 @@ Create workflow using:
     End Node
 
 Supports TRUE / FALSE branching
-Editable node labels
-Add nodes dynamically
-Delete nodes (except Start)
-Undo & Redo functionality
+-Editable node labels
+
+-Add nodes dynamically
+
+-Delete nodes (except Start)
+
+-Undo & Redo functionality
 
 ## Clean and responsive UI
 Built with modern React (functional components & hooks)
 
 Live Demo
 
-🔗 Live URL: [Add your deployed link here]
-🔗 GitHub Repository: [Add your repo link here]
+🔗 Live URL:https://workflow-kappa-mauve.vercel.app/
+🔗 GitHub Repository: https://github.com/Amu-Patel/workflow
 
 ## Tech Stack
 JavaScript-->React
